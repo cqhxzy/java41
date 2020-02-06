@@ -19,17 +19,17 @@
 			<form action="#" method="post">
 				<p>
 					<label>
-						电子邮箱：<input type="text" name="email" />
+						电子邮箱：<input type="text" name="email" value="student@hxzy.com" required />
 					</label>
 				</p>
 				<p>
 					<label>
-						设置密码：<input type="password" name="pwd">
+						设置密码：<input type="password" name="pwd" required>
 					</label>
 				</p>
 				<p>
 					<label>
-						真实姓名：<input type="text" name="userName">
+						真实姓名：<input type="text" name="userName" required>
 					</label>
 				</p>
 				<p>
@@ -62,7 +62,7 @@
 				
 				<p>
 					我现在:
-					<select name="me">
+					<select name="me" disabled>
 						<option>请选择身份</option>
 						<option>医生</option>
 						<option>老师</option>
@@ -77,7 +77,7 @@
 				</p>
 				<p>
 					验证码：
-					<input type="text" name="validateCode">
+					<input type="text" name="validateCode" required>
 				</p>
 				<p>
 					<input type="image" src="img/renren.gif">
