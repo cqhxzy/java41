@@ -1,0 +1,20 @@
+p{
+	font-size: 14px;
+}
+
+body h2{
+	font-size: 16px;
+}
+
+.cooking{
+	color: red;
+}
+
+.cooking ~ h2{
+	color: blue;
+}
+
+.bg > img{
+	width: 887px;
+	height: 439px;
+}

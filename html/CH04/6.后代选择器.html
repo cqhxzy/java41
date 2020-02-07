@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			
+			/*
+				匹配body标签中所有的p标签
+			*/
+			body p{
+				background-color: red;
+			}
+			
+			/*匹配类为container节点中所有的p标签*/
+			.container p{
+				background-color: green;
+			}
+		</style>
+	</head>
+	<body class="container">
+		<h1>后代选择器</h1>
+		<p>p1</p>
+		<p>p2</p>
+		<p>p3</p>
+		<ul>
+			<li>
+				<p>p4</p>
+			</li>
+			<li>
+				<p>p5</p>
+			</li>
+			<li>
+				<p>p6</p>
+			</li>
+		</ul>
+	</body>
+</html>
