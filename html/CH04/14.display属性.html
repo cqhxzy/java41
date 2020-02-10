@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			.container{
+				width: 615px;
+				background-color: #808080;
+			}
+			
+			.container>div{
+				width: 150px;
+				height: 200px;
+				display: inline-block;
+			}
+			
+			.container>div:nth-child(1){
+				background-color: #FAA53B;
+			}
+			.container>div:nth-child(2){
+				background-color: #91cf4f;
+			}
+			.container>div:nth-child(3){
+				background-color: #5eb1fa;
+			}
+			.container>div:nth-child(4){
+				background-color: #fa619e;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<!--
+			块元素和内联
+			
+			块元素的特点：在网页中独占一行显示。块元素能够设置其宽度和高度。
+			
+			内联元素的特点：在网页中按从左往右的方向依次排列。内联元素的宽度和高度是由其内容自动撑起来，宽度和高度默认为auto*auto.
+			
+			网页中的元素默认按照块元素以及内联元素的特点已从上到下，从左往右的方式依次排列。我们把这种工作的过程称为标准文档流。
+			
+			内联元素和块元素相互转换。
+			块元素display属性值默认为block。
+			内联元素display属性值默认为inline
+			
+			使元素既有内联元素的特点也有块元素的特点。
+			display:inline-block;  元素既能够设置宽度和高度，并且横向排列。
+		-->
+		<div style="height: 50px;display: inline;">
+			321
+		</div>
+		<a href="#" style="font-size: 30px;width: 500px;height: 100px;display: block;">百度一下，你就知道</a>
+		<strong>加粗的文本</strong>
+		
+		<section class="container">
+			<div>div1</div>
+			<div>div2</div>
+			<div>div3</div>
+			<div>div4</div>
+		</section>
+	</body>
+</html>
