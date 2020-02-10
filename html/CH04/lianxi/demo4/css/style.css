@@ -9,7 +9,7 @@
 	height: 283px;
 }
 
-.box div p img{
+.box div div.pic img{
 	/*使p标签中的图片宽度沾满整个p标签*/
 	width: 100%;
 }
